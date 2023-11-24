@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Objetos</title>
+</head>
+<body>
+    <h1>Ingresa los datos</h1>
+    <div class="campos">
+    <label for="legajo">Legajo: </label>
+    <input type="text" name="legajo" id="legajo">
+    <label for="nombre">Nombre: </label>
+    <input type="text" name="nombre" id="nombre">
+    <label for="apellido">Apellido: </label>
+    <input type="text" name="apellido" id="apellido">
+    <label for="fechaNacimiento">Fecha de nacimiento: </label>
+    <input type="text" name="fechaNacimiento" id="fechaNacimiento">
+    <label for="cargo">Cargo: </label>
+    <input type="text" name="cargo" id="cargo">
+    </div>
+
+    <div class="botones">
+        <button onclick="obtenerDatos()">Agregar empleado</button>
+        <button onclick="mostrarEmpleados()">Mostrar empleados</button>
+    </div>
+</body>
+</html>
